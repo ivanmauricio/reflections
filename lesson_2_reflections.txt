@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository you make it so that the chages in it can be tracked using git. however
+just by intializing a repository it doesnt eman that your changes will automatically be tracked. you have to
+choose which files you would like to track and thenn make commits of these files as you make changes to them.
