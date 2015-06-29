@@ -3,3 +3,44 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a repository you make it so that the chages in it can be tracked using git. however
 just by intializing a repository it doesnt eman that your changes will automatically be tracked. you have to
 choose which files you would like to track and thenn make commits of these files as you make changes to them.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is different because it sets aside the files which are to be tracked during the next commit.
+the value of it is that not all files are tracked at the same time and if you know you're just going to work on
+certain files then you can see when changes have been made to them.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can make a change to one of your files and once you are happy with that change then you can add it to the
+staging area. This will ensure that your commits only contain one logical change as it is a methodical way of
+saving. as you are only saving the files that you want and that you have made changes to, this will prevent
+making commits where multiple changes have been made and so are hard to debug.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help to keep your history organised when you want to go in different directions with a project.
+You'll have a starting base which you know works and then you can 'branch' out from this base in several different
+directions. you won't have to worry that you will break the project as you'll have the initial commit in your
+repository. this might also be good when you have a set assigment to do but you maybe want to go off piste a little
+and experiment.
+
+How do the diagrams help you visualize the branch structure?
+
+the disgrams help by showing you the structure of your workflow. you can see where you get back to if you run git
+log and also those commits that you cannot reach from your branch because they are part of another one. the
+diagrams help as otherwise the structure is a bit abstract and could get a bit confusing.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two braches are merged together the changes that have been applied to both of them are consolidated into
+one commit. this means that the lines that have been added by two different people are added to the final file
+and any lines that have been taken away are also taken away. when running git log the commits from both branches
+now appear under the same branch and they are sorted by their time stamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The pros of automatic merging is that it can save a lot of time and effort. the programme compares the changes
+between your files and their last ancestor and so can work out what to take out and what to leave in. Another
+good thing about automatic merging is that git asks you if its not sure about merging certain lines. the cons
+might come when there are merging conflicts like when two people have been working on one file.
