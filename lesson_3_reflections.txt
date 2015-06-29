@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+Using a remote repository would useful if you wanted to collaborate with other people on the project that you
+were working on. It would also help if yiu wanted to work on your project from multiple computers as all you
+would need would be an internet connection and you could then keep working on your project from any machine 
+you want.
