@@ -2,5 +2,28 @@ When would you want to use a remote repository rather than keeping all your work
 
 Using a remote repository would useful if you wanted to collaborate with other people on the project that you
 were working on. It would also help if yiu wanted to work on your project from multiple computers as all you
-would need would be an internet connection and you could then keep working on your project from any machine 
+would need would be an internet connection and you could then keep working on your project from any machine
 you want.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You might want to pull changes manually if you are working on a project with a group of people. They may
+have made changes to the remote repository that you do not neccessarily want to have in your own version
+of the code. If you are working from multiple computers then it might be pointless to have git keeping
+synchronisation between them all so it might just be easier to manually download any updates that you have
+made.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are used when you want to make change to someone else's project but you dont want to alter the files
+on that person's repository. a fork is basically a clone that is made from the other person's github repository
+to your github repository. a clone is a copy of a repository on github to your own computer. this automatically
+sets the github repository as the remote of the repository on your computer. branches are elements that work
+within repositories, they are used for when you want to try to implement an experimental feature in your
+project but you do not want to commit to those changes and want to be able to go back to a working version
+of the project and work on mandatory features from there.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This means that you can track the changes you have made since you last pushed up to the online repository. This
+would be useful if you didnt have an internet connection but wanted to see the changes you have made.
